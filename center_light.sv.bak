@@ -1,0 +1,31 @@
+module center_light (
+	input logic Clock, Reset, leftLight, rightLight, leftButton, rightButton,
+	output logic light
+);
+
+	logic PS, NS;
+	
+	parameter off = 1'b0, on = 1'b1;
+
+	// while
+	always_comb begin
+		case(PS)
+			off:	if (leftLight & rightButton) NS = on;           
+					else if (rightLight & leftButton) NS = on;
+					else NS = off;
+			on:	if (rightButton ^ leftButton) NS = off;
+					else NS = on;
+			default: NS = 1'bx;	
+		endcase
+	end
+
+	// reset
+	always @(posedge Clock)
+		if (Reset)
+			PS <= on; // reset should turn the center light on
+		else
+			PS <= NS;
+			
+	assign light = PS;
+
+endmodule

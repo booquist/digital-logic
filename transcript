@@ -1,0 +1,821 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:26:57 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:26:57 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:26:57 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/i0'.
+# Executing ONERROR command at macro ./mux2_1_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/i1'.
+# Executing ONERROR command at macro ./mux2_1_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/sel'.
+# Executing ONERROR command at macro ./mux2_1_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/mux2_1_testbench/out'.
+# Executing ONERROR command at macro ./mux2_1_wave.do line 6
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(79)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 79
+add wave -position end  sim:/center_light_testbench/CLOCK_PERIOD
+add wave -position end  sim:/center_light_testbench/clk
+add wave -position end  sim:/center_light_testbench/Reset
+add wave -position end  sim:/center_light_testbench/leftLight
+add wave -position end  sim:/center_light_testbench/rightLight
+add wave -position end  sim:/center_light_testbench/leftButton
+add wave -position end  sim:/center_light_testbench/rightButton
+add wave -position end  sim:/center_light_testbench/light
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/EE271/Lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:27:38 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:27:38 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:27:39 on Jul 26,2023, Elapsed time: 0:00:42
+# Errors: 12, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:27:39 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(79)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 79
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:04 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:31:04 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:31:04 on Jul 26,2023, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:31:04 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(82)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 82
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:32:48 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:32:48 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:32:48 on Jul 26,2023, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:32:48 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(82)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 82
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:36:06 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:36:06 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:36:06 on Jul 26,2023, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:36:06 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(84)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 84
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:37:34 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:37:34 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:37:34 on Jul 26,2023, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:37:34 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(86)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 86
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:39:37 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:39:37 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:39:37 on Jul 26,2023, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:39:37 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(87)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 87
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:40:34 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:40:34 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:40:34 on Jul 26,2023, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:40:34 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(88)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 88
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:32 on Jul 26,2023
+# vlog -reportprogress 300 ./center_light.sv 
+# -- Compiling module center_light
+# -- Compiling module center_light_testbench
+# 
+# Top level modules:
+# 	center_light_testbench
+# End time: 22:45:32 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:45:32 on Jul 26,2023, Elapsed time: 0:04:58
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work center_light_testbench 
+# Start time: 22:45:32 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.center_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./center_light.sv(88)
+#    Time: 2150 ps  Iteration: 1  Instance: /center_light_testbench
+# Break in Module center_light_testbench at ./center_light.sv line 88
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:10 on Jul 26,2023
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_testbench
+# 
+# Top level modules:
+# 	normal_light
+# 	normal_light_testbench
+# End time: 22:46:10 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:46:10 on Jul 26,2023, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work normal_light_testbench 
+# Start time: 22:46:10 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.normal_light_testbench
+# Loading work.center_light
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/CLOCK_PERIOD'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/clk'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/Reset'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/leftLight'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/rightLight'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/leftButton'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/rightButton'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/center_light_testbench/light'.
+# Executing ONERROR command at macro ./wave.do line 10
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./normal_light.sv(89)
+#    Time: 2150 ps  Iteration: 1  Instance: /normal_light_testbench
+# Break in Module normal_light_testbench at ./normal_light.sv line 89
+add wave -position end  sim:/normal_light_testbench/CLOCK_PERIOD
+add wave -position end  sim:/normal_light_testbench/clk
+add wave -position end  sim:/normal_light_testbench/Reset
+add wave -position end  sim:/normal_light_testbench/leftLight
+add wave -position end  sim:/normal_light_testbench/rightLight
+add wave -position end  sim:/normal_light_testbench/leftButton
+add wave -position end  sim:/normal_light_testbench/rightButton
+add wave -position end  sim:/normal_light_testbench/light
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/EE271/Lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:32 on Jul 26,2023
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_testbench
+# 
+# Top level modules:
+# 	normal_light
+# 	normal_light_testbench
+# End time: 22:46:32 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:46:33 on Jul 26,2023, Elapsed time: 0:00:23
+# Errors: 24, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work normal_light_testbench 
+# Start time: 22:46:33 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.normal_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./normal_light.sv(89)
+#    Time: 2150 ps  Iteration: 1  Instance: /normal_light_testbench
+# Break in Module normal_light_testbench at ./normal_light.sv line 89
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:50:34 on Jul 26,2023
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_testbench
+# 
+# Top level modules:
+# 	normal_light
+# 	normal_light_testbench
+# End time: 22:50:34 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:50:34 on Jul 26,2023, Elapsed time: 0:04:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work normal_light_testbench 
+# Start time: 22:50:34 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.normal_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./normal_light.sv(89)
+#    Time: 2150 ps  Iteration: 1  Instance: /normal_light_testbench
+# Break in Module normal_light_testbench at ./normal_light.sv line 89
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:50 on Jul 26,2023
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_testbench
+# 
+# Top level modules:
+# 	normal_light
+# 	normal_light_testbench
+# End time: 22:52:50 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:52:50 on Jul 26,2023, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work normal_light_testbench 
+# Start time: 22:52:50 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.normal_light_testbench
+# Loading work.center_light
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./normal_light.sv(89)
+#    Time: 2150 ps  Iteration: 1  Instance: /normal_light_testbench
+# Break in Module normal_light_testbench at ./normal_light.sv line 89
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:44 on Jul 26,2023
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_testbench
+# 
+# Top level modules:
+# 	normal_light
+# 	normal_light_testbench
+# End time: 22:53:44 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:53:45 on Jul 26,2023, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work normal_light_testbench 
+# Start time: 22:53:45 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.normal_light_testbench
+# Loading work.center_light
+# ** Warning: (vsim-3839) ./normal_light.sv(55): Variable '/normal_light_testbench/light', driven via a port connection, is multiply driven. See ./normal_light.sv(38).
+#    Time: 0 ps  Iteration: 0  Instance: /normal_light_testbench File: ./normal_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./normal_light.sv(90)
+#    Time: 2150 ps  Iteration: 1  Instance: /normal_light_testbench
+# Break in Module normal_light_testbench at ./normal_light.sv line 90
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:14 on Jul 26,2023
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_testbench
+# 
+# Top level modules:
+# 	normal_light_testbench
+# End time: 22:58:14 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:58:14 on Jul 26,2023, Elapsed time: 0:04:29
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work normal_light_testbench 
+# Start time: 22:58:14 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.normal_light_testbench
+# Loading work.normal_light
+# ** Warning: (vsim-3839) ./normal_light.sv(55): Variable '/normal_light_testbench/light', driven via a port connection, is multiply driven. See ./normal_light.sv(38).
+#    Time: 0 ps  Iteration: 0  Instance: /normal_light_testbench File: ./normal_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./normal_light.sv(90)
+#    Time: 2150 ps  Iteration: 1  Instance: /normal_light_testbench
+# Break in Module normal_light_testbench at ./normal_light.sv line 90
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:45 on Jul 26,2023
+# vlog -reportprogress 300 ./normal_light.sv 
+# -- Compiling module normal_light
+# -- Compiling module normal_light_testbench
+# 
+# Top level modules:
+# 	normal_light_testbench
+# End time: 22:59:45 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:59:45 on Jul 26,2023, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work normal_light_testbench 
+# Start time: 22:59:45 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.normal_light_testbench
+# Loading work.normal_light
+# ** Warning: (vsim-3839) ./normal_light.sv(55): Variable '/normal_light_testbench/light', driven via a port connection, is multiply driven. See ./normal_light.sv(38).
+#    Time: 0 ps  Iteration: 0  Instance: /normal_light_testbench File: ./normal_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./normal_light.sv(92)
+#    Time: 2150 ps  Iteration: 1  Instance: /normal_light_testbench
+# Break in Module normal_light_testbench at ./normal_light.sv line 92
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:41 on Jul 26,2023
+# vlog -reportprogress 300 ./right_edge_light.sv 
+# -- Compiling module right_edge_light
+# -- Compiling module right_edge_light_testbench
+# 
+# Top level modules:
+# 	right_edge_light_testbench
+# End time: 23:31:41 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:31:41 on Jul 26,2023, Elapsed time: 0:31:56
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work right_edge_light_testbench 
+# Start time: 23:31:41 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.right_edge_light_testbench
+# Loading work.right_edge_light
+# ** Warning: (vsim-3839) ./right_edge_light.sv(74): Variable '/right_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./right_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /right_edge_light_testbench File: ./right_edge_light.sv
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/CLOCK_PERIOD'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/clk'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/Reset'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/leftLight'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/rightLight'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/leftButton'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/rightButton'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/normal_light_testbench/light'.
+# Executing ONERROR command at macro ./wave.do line 10
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./right_edge_light.sv(95)
+#    Time: 1350 ps  Iteration: 1  Instance: /right_edge_light_testbench
+# Break in Module right_edge_light_testbench at ./right_edge_light.sv line 95
+add wave -position end  sim:/right_edge_light_testbench/CLOCK_PERIOD
+add wave -position end  sim:/right_edge_light_testbench/clk
+add wave -position end  sim:/right_edge_light_testbench/Reset
+add wave -position end  sim:/right_edge_light_testbench/leftLight
+add wave -position end  sim:/right_edge_light_testbench/leftButton
+add wave -position end  sim:/right_edge_light_testbench/rightButton
+add wave -position end  sim:/right_edge_light_testbench/light
+add wave -position end  sim:/right_edge_light_testbench/playerWin
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/EE271/Lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:32:00 on Jul 26,2023
+# vlog -reportprogress 300 ./right_edge_light.sv 
+# -- Compiling module right_edge_light
+# -- Compiling module right_edge_light_testbench
+# 
+# Top level modules:
+# 	right_edge_light_testbench
+# End time: 23:32:00 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:32:01 on Jul 26,2023, Elapsed time: 0:00:20
+# Errors: 24, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work right_edge_light_testbench 
+# Start time: 23:32:01 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.right_edge_light_testbench
+# Loading work.right_edge_light
+# ** Warning: (vsim-3839) ./right_edge_light.sv(74): Variable '/right_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./right_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /right_edge_light_testbench File: ./right_edge_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./right_edge_light.sv(95)
+#    Time: 1350 ps  Iteration: 1  Instance: /right_edge_light_testbench
+# Break in Module right_edge_light_testbench at ./right_edge_light.sv line 95
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:32:55 on Jul 26,2023
+# vlog -reportprogress 300 ./right_edge_light.sv 
+# -- Compiling module right_edge_light
+# -- Compiling module right_edge_light_testbench
+# 
+# Top level modules:
+# 	right_edge_light_testbench
+# End time: 23:32:55 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:32:56 on Jul 26,2023, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work right_edge_light_testbench 
+# Start time: 23:32:56 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.right_edge_light_testbench
+# Loading work.right_edge_light
+# ** Warning: (vsim-3839) ./right_edge_light.sv(74): Variable '/right_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./right_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /right_edge_light_testbench File: ./right_edge_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./right_edge_light.sv(96)
+#    Time: 1350 ps  Iteration: 1  Instance: /right_edge_light_testbench
+# Break in Module right_edge_light_testbench at ./right_edge_light.sv line 96
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:35:46 on Jul 26,2023
+# vlog -reportprogress 300 ./right_edge_light.sv 
+# -- Compiling module right_edge_light
+# -- Compiling module right_edge_light_testbench
+# 
+# Top level modules:
+# 	right_edge_light_testbench
+# End time: 23:35:47 on Jul 26,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:35:47 on Jul 26,2023, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work right_edge_light_testbench 
+# Start time: 23:35:47 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.right_edge_light_testbench
+# Loading work.right_edge_light
+# ** Warning: (vsim-3839) ./right_edge_light.sv(74): Variable '/right_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./right_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /right_edge_light_testbench File: ./right_edge_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./right_edge_light.sv(96)
+#    Time: 1350 ps  Iteration: 1  Instance: /right_edge_light_testbench
+# Break in Module right_edge_light_testbench at ./right_edge_light.sv line 96
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:36:28 on Jul 26,2023
+# vlog -reportprogress 300 ./right_edge_light.sv 
+# -- Compiling module right_edge_light
+# -- Compiling module right_edge_light_testbench
+# 
+# Top level modules:
+# 	right_edge_light_testbench
+# End time: 23:36:28 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:36:29 on Jul 26,2023, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work right_edge_light_testbench 
+# Start time: 23:36:29 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.right_edge_light_testbench
+# Loading work.right_edge_light
+# ** Warning: (vsim-3839) ./right_edge_light.sv(74): Variable '/right_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./right_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /right_edge_light_testbench File: ./right_edge_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./right_edge_light.sv(96)
+#    Time: 1350 ps  Iteration: 1  Instance: /right_edge_light_testbench
+# Break in Module right_edge_light_testbench at ./right_edge_light.sv line 96
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:41:33 on Jul 26,2023
+# vlog -reportprogress 300 ./left_edge_light.sv 
+# -- Compiling module left_edge_light
+# -- Compiling module left_edge_light_testbench
+# 
+# Top level modules:
+# 	left_edge_light_testbench
+# End time: 23:41:33 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:41:33 on Jul 26,2023, Elapsed time: 0:05:04
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work left_edge_light_testbench 
+# Start time: 23:41:33 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.left_edge_light_testbench
+# Loading work.left_edge_light
+# ** Warning: (vsim-3839) ./left_edge_light.sv(74): Variable '/left_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./left_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /left_edge_light_testbench File: ./left_edge_light.sv
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/CLOCK_PERIOD'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/clk'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/Reset'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/leftLight'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/leftButton'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/rightButton'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/light'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/right_edge_light_testbench/playerWin'.
+# Executing ONERROR command at macro ./wave.do line 10
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./left_edge_light.sv(96)
+#    Time: 1350 ps  Iteration: 1  Instance: /left_edge_light_testbench
+# Break in Module left_edge_light_testbench at ./left_edge_light.sv line 96
+add wave -position end  sim:/left_edge_light_testbench/CLOCK_PERIOD
+add wave -position end  sim:/left_edge_light_testbench/clk
+add wave -position end  sim:/left_edge_light_testbench/Reset
+add wave -position end  sim:/left_edge_light_testbench/rightLight
+add wave -position end  sim:/left_edge_light_testbench/leftButton
+add wave -position end  sim:/left_edge_light_testbench/rightButton
+add wave -position end  sim:/left_edge_light_testbench/light
+add wave -position end  sim:/left_edge_light_testbench/playerWin
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/EE271/Lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:41:47 on Jul 26,2023
+# vlog -reportprogress 300 ./left_edge_light.sv 
+# -- Compiling module left_edge_light
+# -- Compiling module left_edge_light_testbench
+# 
+# Top level modules:
+# 	left_edge_light_testbench
+# End time: 23:41:47 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:41:47 on Jul 26,2023, Elapsed time: 0:00:14
+# Errors: 24, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work left_edge_light_testbench 
+# Start time: 23:41:47 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.left_edge_light_testbench
+# Loading work.left_edge_light
+# ** Warning: (vsim-3839) ./left_edge_light.sv(74): Variable '/left_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./left_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /left_edge_light_testbench File: ./left_edge_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./left_edge_light.sv(96)
+#    Time: 1350 ps  Iteration: 1  Instance: /left_edge_light_testbench
+# Break in Module left_edge_light_testbench at ./left_edge_light.sv line 96
+do right_edge_light.sv.bak
+# ** Error: bad option "right_edge_light": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+# Error in macro ./right_edge_light.sv.bak line 1
+# bad option "right_edge_light": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+#     while executing
+# "module right_edge_light ("
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:43:12 on Jul 26,2023
+# vlog -reportprogress 300 ./left_edge_light.sv 
+# -- Compiling module left_edge_light
+# -- Compiling module left_edge_light_testbench
+# 
+# Top level modules:
+# 	left_edge_light_testbench
+# End time: 23:43:12 on Jul 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:43:12 on Jul 26,2023, Elapsed time: 0:01:25
+# Errors: 3, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work left_edge_light_testbench 
+# Start time: 23:43:12 on Jul 26,2023
+# Loading sv_std.std
+# Loading work.left_edge_light_testbench
+# Loading work.left_edge_light
+# ** Warning: (vsim-3839) ./left_edge_light.sv(74): Variable '/left_edge_light_testbench/light', driven via a port connection, is multiply driven. See ./left_edge_light.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /left_edge_light_testbench File: ./left_edge_light.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./left_edge_light.sv(96)
+#    Time: 1350 ps  Iteration: 1  Instance: /left_edge_light_testbench
+# Break in Module left_edge_light_testbench at ./left_edge_light.sv line 96
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:21 on Jul 27,2023
+# vlog -reportprogress 300 ./button.sv 
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# End time: 00:05:21 on Jul 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:05:21 on Jul 27,2023, Elapsed time: 0:22:09
+# Errors: 0, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work button_testbench 
+# Start time: 00:05:21 on Jul 27,2023
+# Loading sv_std.std
+# Loading work.button_testbench
+# Loading work.button
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/CLOCK_PERIOD'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/clk'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/Reset'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/rightLight'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/leftButton'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/rightButton'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/light'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/left_edge_light_testbench/playerWin'.
+# Executing ONERROR command at macro ./wave.do line 10
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./button.sv(74)
+#    Time: 1350 ps  Iteration: 1  Instance: /button_testbench
+# Break in Module button_testbench at ./button.sv line 74
+add wave -position end  sim:/button_testbench/CLOCK_PERIOD
+add wave -position end  sim:/button_testbench/clk
+add wave -position end  sim:/button_testbench/Reset
+add wave -position end  sim:/button_testbench/pressed
+add wave -position end  sim:/button_testbench/set
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/EE271/Lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:45 on Jul 27,2023
+# vlog -reportprogress 300 ./button.sv 
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# End time: 00:05:45 on Jul 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:05:46 on Jul 27,2023, Elapsed time: 0:00:25
+# Errors: 24, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work button_testbench 
+# Start time: 00:05:46 on Jul 27,2023
+# Loading sv_std.std
+# Loading work.button_testbench
+# Loading work.button
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./button.sv(74)
+#    Time: 1350 ps  Iteration: 1  Instance: /button_testbench
+# Break in Module button_testbench at ./button.sv line 74
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:06:44 on Jul 27,2023
+# vlog -reportprogress 300 ./button.sv 
+# -- Compiling module button
+# -- Compiling module button_testbench
+# 
+# Top level modules:
+# 	button_testbench
+# End time: 00:06:44 on Jul 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:06:45 on Jul 27,2023, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work button_testbench 
+# Start time: 00:06:45 on Jul 27,2023
+# Loading sv_std.std
+# Loading work.button_testbench
+# Loading work.button
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./button.sv(75)
+#    Time: 1350 ps  Iteration: 1  Instance: /button_testbench
+# Break in Module button_testbench at ./button.sv line 75
